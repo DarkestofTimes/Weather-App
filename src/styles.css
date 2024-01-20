@@ -79,8 +79,8 @@ header {
   height: 35px;
   width: 35px;
   content: "";
-  -webkit-mask: url(Img/magnify.svg) no-repeat 50% 50%;
-  mask: url(Img/magnify.svg) no-repeat 50% 50%;
+  -webkit-mask: url(./img/magnify.svg) no-repeat 50% 50%;
+  mask: url(./img/magnify.svg) no-repeat 50% 50%;
   -webkit-mask-size: cover;
   mask-size: cover;
   background-color: white;
