@@ -5,7 +5,7 @@ import { clearMain } from "./renderMain.js";
 export const fetchWeather = async (location) => {
   const errorElement = document.querySelector(".errorElement");
   const spinnieContainer = document.querySelector(".spinnieContainer");
-  const url = `http://localhost:5000/weather/${await location}`;
+  const url = `https://node-api-relay.onrender.com/weather/${await location}`;
   try {
     spinnieContainer.style.display = "grid";
     const response = await fetch(url);
